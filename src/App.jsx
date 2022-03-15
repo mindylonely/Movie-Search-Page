@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
-import { apiRequest, searchRequest } from "./requestMethods";
+import { searchRequest } from "./requestMethods";
 
 const App = () => {
       const [searchTerm, setSearchTerm] = useState("");
